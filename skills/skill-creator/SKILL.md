@@ -76,7 +76,6 @@ Executable code (Python/Bash/etc.) for tasks that require deterministic reliabil
 - **When to include**: When the same code is being rewritten repeatedly or deterministic reliability is needed
 - **Example**: `scripts/rotate_pdf.py` for PDF rotation tasks
 - **Benefits**: Token efficient, deterministic, may be executed without loading into context
-- **Note**: Scripts may still need to be read by Codex for patching or environment-specific adjustments
 
 ##### References (`references/`)
 
